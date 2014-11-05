@@ -2,7 +2,7 @@
 
 pkgname=libvdpau-sunxi
 _gitname=libvdpau-sunxi
-pkgver=52.1a41433
+pkgver=55.a9753eb
 pkgrel=1
 pkgdesc="Sunxi VDPAU library"
 arch=('armv7h')
