@@ -1,10 +1,10 @@
 # Maintainer: Christopher Reimer <vdr4arch[at]creimer[dot]net>
 pkgname=vdr-dvbapi
-pkgver=2.1.1_15_g36a6b1d
+pkgver=2.1.1_17_g1b9df50
 epoch=1
-_gitver=36a6b1d2642bcce66300e1e4574062af6f70d326
+_gitver=1b9df50e2168edc09f68f1362f21d12312eb070b
 _vdrapi=2.1.8
-pkgrel=3
+pkgrel=1
 pkgdesc="A bridge between VDR and OScam."
 url="https://github.com/manio/vdr-plugin-dvbapi"
 arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h')
