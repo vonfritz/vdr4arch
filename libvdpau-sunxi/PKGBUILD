@@ -2,7 +2,7 @@
 
 pkgname=libvdpau-sunxi
 _gitname=libvdpau-sunxi
-pkgver=55.a9753eb
+pkgver=68.2f95399
 pkgrel=1
 pkgdesc="Sunxi VDPAU library"
 arch=('armv7h')
@@ -14,12 +14,12 @@ options=('!libtool')
 provides=('libvdpau-sunxi')
 conflicts=('libvdpau-sunxi')
 install='libvdpau-sunxi.install'
-source=('git+https://github.com/linux-sunxi/libvdpau-sunxi')
+source=('git+https://github.com/linux-sunxi/libvdpau-sunxi#branch=dev')
 md5sums=('SKIP')
 
 pkgver() {
   cd "${SRCDEST}/${_gitname}"
-  echo $(git rev-list --count master).$(git rev-parse --short master)
+  echo $(git rev-list --count dev).$(git rev-parse --short dev)
 }
 
 
